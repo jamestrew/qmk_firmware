@@ -12,4 +12,4 @@
 #define DEBOUNCE 15
 
 // Configure the global tapping term (default: 200ms)
-#define TAPPING_TERM 180
+#define TAPPING_TERM 150
