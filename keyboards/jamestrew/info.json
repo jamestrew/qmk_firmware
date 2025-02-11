@@ -1,0 +1,7 @@
+{
+    "manufacturer": "mineugene",
+    "maintainer": "Eugene Min",
+    "usb": {
+        "vid": "0x6D65"
+    }
+}
