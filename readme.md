@@ -34,3 +34,13 @@ QMK is developed and maintained by Jack Humbert of OLKB with contributions from 
 ## Official Website
 
 [qmk.fm](https://qmk.fm) is the official website of QMK, where you can find links to this page, the documentation, and the keyboards supported by QMK.
+
+
+# For me
+1. run `qmk compile -kb jamestrew/dactyl/4x6_4 -km default`
+2. move the .uf2 file over to the keyboard after putting the kb into it's bootloader
+
+    with nix, should have thunar to do this with just mouse
+
+
+create `compile_commands.json` with `qmk generate-compilation-database -kb jamestrew/dactyl/4x6_4 -km default`

@@ -2,14 +2,12 @@
 
 #pragma once
 
-#define VIAL_KEYBOARD_UID {0xC4, 0xCC, 0xB4, 0x76, 0x30, 0x16, 0xFC, 0x70}
-
-#define VIAL_UNLOCK_COMBO_ROWS { 10, 10 }
-#define VIAL_UNLOCK_COMBO_COLS { 5, 6 }
 
 #define DYNAMIC_KEYMAP_LAYER_COUNT 10
 
 #define DEBOUNCE 15
 
 // Configure the global tapping term (default: 200ms)
-#define TAPPING_TERM 150
+#define TAPPING_TERM 180
+#define QUICK_TAP_TERM 150
+#define PERMISSIVE_HOLD

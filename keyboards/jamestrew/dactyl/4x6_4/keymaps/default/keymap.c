@@ -22,7 +22,6 @@ enum tap_dance_keycodes {
 /* #define HOME_O RALT_T(KC_O) */
 /* #define HOME_I RGUI_T(KC_I) */
 
-
 #define HOME_A KC_A
 #define HOME_S KC_S
 #define HOME_H KC_H
@@ -178,4 +177,3 @@ const key_override_t mo_hjkl_underscore = ko_make_with_layers(MOD_MASK_SHIFT, MO
 const key_override_t *key_overrides[] = {
     &mo_hjkl_underscore,
 };
-
